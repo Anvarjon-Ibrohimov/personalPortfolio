@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Doodle+Triangles&family=Rubik+Scribble&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+.head{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 10px 15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.logo h4{
+    color: #092635;
+    font-size: 25px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+.logo h4:hover{
+    color: #2D9596;
+}
+.round{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    background-image: url(./images/logo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.navbar ul{
+display: flex;
+list-style: none;
+}
+.navbar ul li{
+    padding: 5px 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Roboto;
+    color: #092635;
+}
+.head-body{
+    width: 100%;
+    height: 869px;
+    background-color: #001C30;
+    background-attachment: fixed;
+    /* background-color: #ECF4D6; */
+}
+.head-body-content{
+    display: flex;
+    height: 869px;
+    align-items: center;
+}
+.head-body-content-text h1{
+    font-size: 60px;
+    font-weight: 300;
+    color: #E7B10A;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+.head-body-content-text span{
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Roboto;
+   
+}
+.head-body-content-text p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-bottom: 45px;
+}
+.head-body-content-text .btn-view{
+    width: 188px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    background-color: #E7B10A;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.head-body-content-text .btn-contact{
+    width: 188px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    height: 768px;
+}
