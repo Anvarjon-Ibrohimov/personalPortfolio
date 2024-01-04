@@ -72,6 +72,7 @@ list-style: none;
     display: flex;
     height: 869px;
     align-items: center;
+    justify-content: space-evenly;
 }
 .head-body-content-text h1{
     font-size: 60px;
@@ -111,6 +112,28 @@ list-style: none;
     background-color: transparent;
     color: #fff;
     cursor: pointer;
+}
+.head-body-content-image{
+    width: 380px;
+    height: 380px;
+    border: 5px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7));
+}
+.personal-image{
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    background-image: url(./images/logo.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 4px;
 }
 .about{
     width: 100%;
